@@ -3,7 +3,7 @@
 A professional and visually engaging portfolio website with animations, profile section, project showcase, and contact details.
 
 ## 🌐 Live Demo
-[View Demo](https://yourusername.github.io/portfolio)
+[View Demo](https://snowfaj.github.io/Portfolio-website-/#projects)
 
 ## 📸 Screenshot
 ![Portfolio Screenshot]
