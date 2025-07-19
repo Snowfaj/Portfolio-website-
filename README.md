@@ -6,7 +6,8 @@ A professional and visually engaging portfolio website with animations, profile 
 [View Demo](https://yourusername.github.io/portfolio)
 
 ## 📸 Screenshot
-![Portfolio Screenshot](screenshots/portfolio.png)
+![Portfolio Screenshot]
+![Image](https://github.com/user-attachments/assets/83ff862d-5c0c-4963-a54e-0d98f6a5dc6e)
 
 ## ✨ Features
 - 👤 Profile image and bio
