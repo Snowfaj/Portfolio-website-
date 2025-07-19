@@ -18,16 +18,14 @@ A professional and visually engaging portfolio website with animations, profile 
 ## 🛠 Tech Stack
 - HTML
 - CSS
-- JavaScript (optional for effects)
 
 ## 📂 Project Structure
 ```
 📁 portfolio/
 ├── index.html
 ├── style.css
-├── script.js
-└── assets/
-    └── profile.jpg
+├── profile.jpg
+
 ```
 
 ## ▶️ How to Use
