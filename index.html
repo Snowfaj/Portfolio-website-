@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="gradient-header">
+    <h1>Welcome to My Portfolio</h1>
+    <nav>
+      <a href="#top">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="top" class="hero-section scroll-effect">
+    <div class="hero-content">
+       <h2>Profile</h2>
+ <img src="snow.jpg" alt="Profile Picture" class="profile-img" />
+      <h2>👋 Hi, I'm Snowfa</h2>
+      <p>A Front-End Developer passionate about creating responsive web apps.</p>
+      <a href="#projects" class="cta-button">View My Work</a>
+    </div>
+    <p><strong>Role:</strong> Front-End Developer</p>
+
+   <p>I enjoy crafting responsive layouts using HTML, CSS, JavaScript, and React.</p>
+  </section>
+  
+<section id="about" class="scroll-effect">
+    <h2>About Me</h2>
+    <p>I’m a detail-oriented web developer passionate about building modern and user-friendly websites.</p>
+  </section>
+
+  <section id="projects" class="scroll-effect">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>🎯 Interactive Quiz App</h3>
+    <p>A dynamic JS quiz with scoring, correct answer highlighting, and animations.</p>
+    <p><a href="https://github.com/Snowfaj/Interactive-Quiz-application-.git" target="_blank" class="github-link">🔗 View on GitHub</a></p>
+  </div>
+
+  <div class="project">
+    <h3>💬 Real-Time Chat App</h3>
+    <p>WebSocket-based app built with React.js for live messaging and updates.</p>
+    <p><a href="https://github.com/Snowfaj/Real-time-chat-application-.git" target="_blank" class="github-link">🔗 View on GitHub</a></p>
+  </div>
+</section>
+
+
+  <section id="contact" class="scroll-effect">
+    <h2>Contact Me</h2>
+    <ul>
+  <li>📧 Email: <a href="mailto:y">snowfaj4@gmail.com</a></li>
+  <li>📱 Phone:+91 9025605056</li>
+  <li>🌐 GitHub: <a href="https://github.com/Snowfaj">https://github.com/Snowfaj</a></li>
+  <li>🔗 LinkedIn: <a href="https://www.linkedin.com/in/snowfa-j-383aab353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin.com/in/snowfa-j</a></li>
+</ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Snowfa</p>
+  </footer>
+
+  <script>
+    const elements = document.querySelectorAll('.scroll-effect');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    elements.forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
